@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ-12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mod-1">
+        <div class="card">
+            <div class="card-head">
+                <h2>Credit Card Details</h2>
+            </div>
+            <form action="">
+                <div>
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                </div>
+                <div>
+                    <label for="card-name">Name On Card</label>
+                    <input type="text" id="card-number" placeholder="Name Surname">
+                </div>
+                <div class="card-date">
+                    <label for="month">Expiry Date
+                        <input type="text" id="month" placeholder="02">
+                    </label>
+                    <label for="year">
+                        <input type="text" id="year" placeholder="2017">
+                    </label>
+                    <label for="code">CVV/CVN
+                        <input type="text" id="code" placeholder="&bull;&bull;&bull;">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <form class="mod-2">
+        <div class="inputs">
+            <h2>Inputs</h2>
+            <input class="input-1" type="text" placeholder="Enter some text">
+            <input class="input-2" type="text" placeholder="valid text">
+            <input class="input-3" type="text" placeholder="invalid text">
+        </div>
+        <div class="checkboxes">
+            <h2>Check boxes</h2>
+            <div>
+                <label for="checkbox-1">
+                    <input class="input-one" type="checkbox" id="checkbox-1">
+                    <div class="check ch-one">
+                        <div class="check-item ch-i-one"></div>
+                    </div>
+                    <span>Subscribe</span>
+                </label>
+                <label for="checkbox-2">
+                    <input class="input-two" type="checkbox" id="checkbox-2">
+                    <div class="check ch-two">
+                        <div class="check-item ch-i-two"></div>
+                    </div>
+                    <span>Subscribe</span>
+                </label>
+            </div>
+        </div>
+        <div class="radio">
+            <h2>Radio buttons</h2>
+            Gender:
+            <label for="radio-1">
+                <input type="radio" name="radio-btn" id="radio-1">
+                <span class="marker"></span>
+                <span>Male</span>
+            </label>
+            <label for="radio-2">
+                <input type="radio" name="radio-btn" id="radio-2">
+                <span class="marker"></span>
+                <span>Female</span>
+            </label>
+        </div>
+        <div class="buttons">
+            <h2>Buttons</h2>
+            <input class="active" type="submit" value="Active">
+            <input class="active" type="submit" value="Hover">
+            <input class="danger" type="submit" value="Danger">
+            <input class="danger" type="submit" value="Hover">
+            <input type="submit" value="Disabled" disabled>
+            <input class="active last-btn" type="submit" value="+">
+            <input class="danger last-btn" type="submit" value="-">
+        </div>
+        <div class="area">
+            <h2>Text area</h2>
+            <textarea placeholder="Enter some text..."></textarea>
+        </div>
+    </form>
+    <div class="mod-3">
+        <form action="">
+            <div class="registration">
+            	<h3>Registration form</h2>
+                <div class="flex">
+                    <img src="img/username.png" alt="">
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="flex">
+                    <img src="img/email.png" alt="">
+                    <input type="email" placeholder="Email address">
+                </div>
+                <div class="flex">
+                    <img src="img/pswd.png" alt="">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm password">
+                </div>
+            </div>
+            <div class="personal">
+                <h3>Personal details</h2>
+                <div class="flex">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="flex">
+                    <select name="" id="">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                    <input type="date">
+                </div>
+            </div>
+            <div class="agree-block">
+                <label for="agree-1">
+                    <input type="checkbox" id="agree-1">
+                    I want to receive news and special offers
+                </label>
+                <label for="agree-2">
+                    <input type="checkbox" id="agree-2">
+                    I agree with the Therms and Conditions
+                </label>
+            </div>
+        </form>
+        <footer>
+        	<button>Submit</button>
+        </footer>
+    </div>
+</body>
+
+</html>
